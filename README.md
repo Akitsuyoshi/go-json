@@ -11,15 +11,15 @@ This simple api is written in golang.
 
 1. Install this repository into your local
 
-`git clone https://github.com/Akitsuyoshi/go-json`
+ `$ git clone https://github.com/Akitsuyoshi/go-json`
 
 2. Build the Docker image
 
-`$ docker build -t go-json .`
+ `$ docker build -t go-json .`
 
 3. Run the image
 
-`$ docker run -p 80:80 go-json`
+ `$ docker run -p 80:8081 go-json`
 
 And visit localhost:80 in your browser, you can see the application run.
 
