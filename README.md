@@ -2,23 +2,27 @@
 
 This simple api is written in golang.
 
-# Prerequisites
+### Prerequisites
 1. You've already set your $GOPATH up in your local
 2. the knowledge of some docker to use
 
 
-# the settting to use
+### the settting to use
 
 1. Install this repository into your local
+
 `git clone https://github.com/Akitsuyoshi/go-json`
 
 2. Build the Docker image
+
 `$ docker build -t go-json .`
 
 3. Run the image
+
 `$ docker run -p 80:80 go-json`
 
 And visit localhost:80 in your browser, you can see the application run.
+
 
 If you'd like to stop, follow the commands
 ```
