@@ -3,7 +3,7 @@
 This simple api is written in golang.
 
 ### Prerequisites
-1. You've already set your $GOPATH up in your local
+1. You've already installed Docker in your local or VM
 2. the knowledge of some docker to use
 
 
